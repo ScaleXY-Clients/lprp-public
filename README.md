@@ -1,3 +1,3 @@
 # LPRP
 
-iwr -useb https://raw.githubusercontent.com/ScaleXY-Clients/lprp-public/master/install.ps1 | iex
+iwr -useb https://bit.ly/lprp01 | iex
