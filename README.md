@@ -1,5 +1,5 @@
 # LPRP
 
 ```
-$ iwr -useb https://bit.ly/lprp01 | iex
+iwr -useb https://bit.ly/lprp01 | iex
 ```
