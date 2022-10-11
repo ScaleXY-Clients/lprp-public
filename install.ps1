@@ -8,6 +8,6 @@ if([IntPtr]::Size -eq 4) {
 }
 $destination = '.\install.zip'
 Invoke-RestMethod -Uri $source -OutFile $destination
-unzip .\install.zip
+Expand-Archive -Path $destination -Force -DestinationPath '.\'
 .\install.bat
 Write-Host "Please restart machine"
